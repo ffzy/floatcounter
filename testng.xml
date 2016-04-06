@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="mytest" verbose="1">
+    <test verbose="2" name="logging" junit="false" annotations="JDK" preserve-order="true">
+        <classes>
+            <class name="fileprocessor.FileProcessorTest"/>
+        </classes>
+    </test>
+</suite>

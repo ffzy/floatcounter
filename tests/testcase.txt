@@ -1,0 +1,14 @@
+1. Happy path - several lines, each line with several numbers separated by single space.
+2. Numbers separated by multiple spaces.
+3. Numbers separated by tabs.
+4. Line starts and ends with spaces.
+5. Line starts and ends with tabs.
+6. Numbers in double type.
+7. Alphabet characters.
+8. Empty lines.
+9. Empty file.
+10. 1-line file.
+11. Long line - 10000 columns.
+12. Big file - 2GB size.
+13. DOS / UNIX format.
+14. Incorrect file name.
