@@ -7,6 +7,9 @@ import java.io.*;
 import java.math.BigDecimal;
 
 /**
+ * The main class of Float Counter, a tool to calculate the total count of
+ * numbers and the sum of all numbers from a file.
+ *
  * Created by zhangy12 on 4/3/2016.
  */
 public class FloatCounter {
@@ -40,7 +43,8 @@ public class FloatCounter {
                 sum = sum.add(decimal);
                 count++;
             } catch (NumberFormatException e) {
-                log.warn("{} when converting from word to float - {}. Skip it.", e.getClass().getSimpleName(), word);
+                log.warn("{} when converting from word to float - {}. Skip it.",
+                        e.getClass().getSimpleName(), word);
             }
         }
     }
