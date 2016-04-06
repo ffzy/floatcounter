@@ -70,7 +70,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>fileprocessor.FileProcessor</mainClass>
+                            <mainClass>floatcounter.FloatCounter</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -84,7 +84,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>fileprocessor.FileProcessor</mainClass>
+                            <mainClass>floatcounter.FloatCounter</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

@@ -3,7 +3,7 @@
 <suite name="mytest" verbose="1">
     <test verbose="2" name="logging" junit="false" annotations="JDK" preserve-order="true">
         <classes>
-            <class name="fileprocessor.FileProcessorTest"/>
+            <class name="floatcounter.FloatCounterTest"/>
         </classes>
     </test>
 </suite>
