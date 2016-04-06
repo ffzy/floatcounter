@@ -14,6 +14,7 @@ Usage: run_float_counter.sh \<input file\> [rebuild]
 1.0123456789
 00 2.3 45 6.7890 0.1234567 7.6543210 0.0000001 1.1111110 2.2222222 3.3333333 4.4444444 5.5555555 6.6666666 7.7777777 8.8888888 9.9999999
 ```
+The files named "testfile*.txt" in folder "tests" are some sample input files for test.
 
 ## Contribution
 Contributors to this project is welcome. This can involve any number of area.
