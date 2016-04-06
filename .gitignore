@@ -4,9 +4,9 @@ logs
 target
 
 # IDE
-.ipr
-.iws
-.iml
+*.ipr
+*.iws
+*.iml
 .idea
 
 # Mobile Tools for Java (J2ME)
