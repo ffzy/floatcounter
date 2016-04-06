@@ -3,7 +3,7 @@ A tool to get the sum of float numbers in a file.
 ## Introduction
 This is a tool to calculate the total count of numbers and the sum of all numbers from a file.
 ## Usage
-Usage: run_float_counter.sh <input file> [rebuild]
+Usage: run_float_counter.sh \<input file\> [rebuild]
 ## Sample input file
 ```
 1.1 2.2 3.3 4.46
