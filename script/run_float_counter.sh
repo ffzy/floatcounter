@@ -7,6 +7,9 @@ function usage {
     cat << EOF
 Float Counter, a tool to calculate the total count of numbers and the sum of all numbers from a file.
 Usage: $(basename $0) <input file> [rebuild]
+    input file - The file to be processed.
+    rebuild - Force to rebuild the maven project if it is set to "rebuild".
+        Otherwise use existing jar file if it exists.
 EOF
 }
 
