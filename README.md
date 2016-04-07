@@ -5,6 +5,10 @@ A tool to get the sum of float numbers in a file.
 This is a tool to calculate the total count of numbers and the sum of all numbers from a file.
 
 ## Usage
+#### Build
+It automatically builds when you run the tool for the first time. Make sure Maven is installed in your box.
+
+#### Run
 ```
 Usage: run_float_counter.sh \<input file\> [rebuild]
     input file - The file to be processed.
