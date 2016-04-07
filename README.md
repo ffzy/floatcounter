@@ -9,11 +9,20 @@ This is a tool to calculate the total count of numbers and the sum of all number
 It automatically builds when you run the tool for the first time. Make sure Maven is installed in your box.
 
 #### Run
+#####
+Linux
 ```
-Usage: run_float_counter.sh \<input file\> [rebuild]
+Usage: run.sh \<input file\> [rebuild]
     input file - The file to be processed.
     rebuild - Force to rebuild the maven project if it is set to "rebuild".
         Otherwise use existing jar file if it exists.
+```
+#####
+Windows
+- Switch to the home directory of floatcounter project first.
+```
+Usage: script\run.bat \<input file\>
+    input file - The file to be processed.
 ```
 
 ## Sample input file
